@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color: beige;
+  color: blue;
+  font-size: 18px;
+  line-height: normal;
+  text-align: middle;
+}
+
+h1 {
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  line-height: normal
+  text-align: middle;
+}
+
+h2 {
+  color: black;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+  line-height: normal;
+  text-align: middle;
+}
+
+a:hover {
+  color: green
+}
+
+.container {
+  background-color: lightcoral;
+  padding: 20px;
+  border-radius: 10px;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.picture {
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.option {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px gray;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+  line-height: normal;
+  background-color: #eae4eb;
+  text-align: center;
+}
+.boldtext{
+  font-family:'Bad Script', cursive;
+  font-size: 17px;
+  color: black
+}
+.socialmedia {
+  padding: 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px gray;
+  font-size: 18px;
+  font-family: 'Amatic SC', cursive;
+  line-height: normal;
+  background-color: #eae4eb;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+.list-inline{
+  padding: 0px;
+}
+
+@media (max-width: 960) {
+  .container {
+    width: 700px;
+  }
+}
